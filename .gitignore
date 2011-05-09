@@ -1,0 +1,16 @@
+TestResults
+_ReSharper.*
+bin
+obj
+dist
+build
+*.suo
+*.user
+*.resharper
+*.resharper.user
+*.ReSharper
+*.ReSharper.user
+*.yap
+.sass-cache
+/Deployment
+*.vs10x
