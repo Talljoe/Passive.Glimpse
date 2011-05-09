@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Passive.Glimpse</id>
+    <title>Passive Data-Access Framework Glimpse Plugin</title>
+    <version>0.0.0.0</version>
+    <authors>Joe Wasson</authors>
+    <owners>Joe Wasson</owners>
+    <summary>A peek into "dynamic" data access framework for .NET 4.0.</summary>
+    <description>
+      Glimpse plugin that provides tracing of SQL commands executed by Passive.
+    </description>
+    <tags>glimpse db data-acccess database talljoe sql .net40</tags>
+    <language>en-US</language>
+    <licenseUrl>https://github.com/Talljoe/Passive.Glimpse/raw/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/Talljoe/Passive.Glimpse</projectUrl>
+    <dependencies>
+      <dependency id="Glimpse" version="0.80" />
+      <dependency id="Passive" version="0.2.8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build\*" target="lib\net40" />
+  </files>
+</package>
