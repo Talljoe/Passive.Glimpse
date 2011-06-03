@@ -6,7 +6,7 @@ namespace Passive.Glimpse
     using System.Collections.Concurrent;
     using System.Diagnostics;
     using System.Web;
-    using global::Glimpse.Net.Extensibility;
+    using global::Glimpse.Core.Extensibility;
     using Passive.Diagnostics;
     using System.Linq;
 

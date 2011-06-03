@@ -15,7 +15,7 @@
     <licenseUrl>https://github.com/Talljoe/Passive.Glimpse/raw/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/Talljoe/Passive.Glimpse</projectUrl>
     <dependencies>
-      <dependency id="Glimpse" version="0.80" />
+      <dependency id="Glimpse" version="0.82" />
       <dependency id="Passive" version="0.2.8.0" />
     </dependencies>
   </metadata>

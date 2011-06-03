@@ -43,7 +43,7 @@
           <include name="Passive.Glimpse/**/*.cs"/>
         </sources>
         <references>
-          <include name="packages\Glimpse*\lib\net40\Glimpse.Net.dll"/>
+          <include name="packages\Glimpse*\lib\net40\Glimpse.Core.dll"/>
           <include name="packages\Passive*\lib\net40\Passive.dll"/>
           <include name="mscorlib.dll"/>
           <include name="Microsoft.CSharp.dll"/>

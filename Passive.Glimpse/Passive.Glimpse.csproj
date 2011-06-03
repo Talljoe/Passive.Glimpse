@@ -31,8 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Glimpse.Net">
-      <HintPath>..\packages\Glimpse.0.81\lib\net40\Glimpse.Net.dll</HintPath>
+    <Reference Include="Glimpse.Core">
+      <HintPath>..\packages\Glimpse.0.82\lib\net40\Glimpse.Core.dll</HintPath>
     </Reference>
     <Reference Include="Passive, Version=0.2.0.0, Culture=neutral, PublicKeyToken=91b9ae81b72178fc, processorArchitecture=MSIL">
       <HintPath>..\packages\Passive.0.2.8.0\lib\net40\Passive.dll</HintPath>
