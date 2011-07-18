@@ -16,7 +16,7 @@ namespace Passive.Glimpse
         private const string StoreToken = "___Passive_Glimpse_Store";
         private static bool initialized;
 
-        public object GetData(HttpApplication application)
+        public object GetData(HttpContextBase context)
         {
             var data = Store.List.Select(metadata =>
                                          new object[]
@@ -29,7 +29,7 @@ namespace Passive.Glimpse
             return data.AddHeader("Context", "Sql", "Arguments", "ElapsedTime");
         }
 
-        public void SetupInit(HttpApplication application)
+        public void SetupInit()
         {
             lock (StoreToken)
             {

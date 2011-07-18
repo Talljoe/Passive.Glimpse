@@ -14,3 +14,4 @@ build
 .sass-cache
 /Deployment
 *.vs10x
+packages
